@@ -161,3 +161,8 @@ a {
 .topbanner{
   background-image: url(../public/assets/SwiperImg/bgimg.png);
 }
+.card-image{
+  height: 200px !important;
+  object-fit: contain;
+  width: 100% !important;
+ }

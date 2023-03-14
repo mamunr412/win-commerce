@@ -1,14 +1,21 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
-import Header from '../Header/Header'
+import BottonNavbar from '../Navbar/BottonNavbar'
+import Navbar from '../Navbar/Navbar'
+import TopBanner from '../TopBanner/TopBanner'
+
 
 const HomeWrapper = () => {
   return (
-    <div>
-<Header/>
-<Footer/>
+    <>
+     
+    <Navbar/>
+    <BottonNavbar/>
+ <TopBanner/>
+    
+    <Footer/>
 
-    </div>
+    </>
   )
 }
 

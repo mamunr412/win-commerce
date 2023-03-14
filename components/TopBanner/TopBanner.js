@@ -58,7 +58,7 @@ const TopBanner = () => {
       onSwiper={setSwiperRef}
       slidesPerView={4}
       centeredSlides={true}
-      spaceBetween={0}
+      spaceBetween={30}
       pagination={{
         type: "fraction",
       }}

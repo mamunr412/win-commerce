@@ -4,15 +4,22 @@ import { BsSearch, BsHeart } from "react-icons/bs";
 import { FaHeadphones } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { RiShoppingCartLine } from "react-icons/ri";
+import Image from 'next/image';
+import foeterimage from '../../public/assets/Cards/Vector 1.png'
 const Navbar = () => {
   
   const [name, setProductName] = useState("");
   return (
     <div className='bg-[#03484D] h-[68px] px-[61px] flex items-center justify-between'>
             <div className='flex items-center gap-[41px]'>
-                <div className='h-[48px] w-[132.5px] border-2'>
-                    <h1 className='text-white'>Win stor</h1>
-                </div>
+            <div className='flex item-center gap-2 mb-2'><Image
+    
+    src={foeterimage}
+    alt=""
+    width={80}
+    height={30}
+  /><p className='text-[20px] mb-[21px] text-[#00CAD7]'> store</p>
+                        </div> 
                 <div className='h-[39px] w-[534px] bg-white  rounded-md flex items-center'>
                     <div className='w-[157px] h-[39px] flex items-center justify-center 
                 border-r-[1px]'>

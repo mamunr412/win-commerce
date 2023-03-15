@@ -47,12 +47,7 @@ try {
                         View More
                     </button>
                 </div>
-                <div className="pt-[52px] ">
-                    <div className="h-[165px] w-[165px] rounded-full text-[47px] text-white mr-[150px] flex items-center justify-center radialGradiant"
-                    >
-                        <h1>40% <br /> Off</h1>
-                    </div>
-                </div>
+               
             </div></SwiperSlide>
         
       </Swiper>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
+import HomeCategory from '../HomeCategory/HomeCategory'
 import BottonNavbar from '../Navbar/BottonNavbar'
 import Navbar from '../Navbar/Navbar'
 import NewArival from '../NewArival/NewArival'
@@ -11,9 +12,13 @@ const HomeWrapper = () => {
     <>
      
     <Navbar/>
-    <BottonNavbar/>
+   <div className='hidden md:block '>
+     <BottonNavbar />
+   </div>
  <TopBanner/>
  <NewArival/>
+
+ <HomeCategory/>
     
     <Footer/>
 

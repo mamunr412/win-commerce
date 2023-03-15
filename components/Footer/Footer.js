@@ -12,13 +12,14 @@ import foeterimage from '../../public/assets/Cards/Vector 1.png'
 const Footer = () => {
   return (
     <div><footer
-    className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left bg-[#393939] ">
+    className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left footer-bg ">
     
     <div className="py-10 container mx-auto  ">
       <div className="grid-1 grid gap-1 md:grid-cols-2 lg:grid-cols-4">
-                      <div className=' text-white'>  
+                      <div className='text-white'>  
 
-                      <div className='flex item-center gap-2 mb-2'><Image
+                      <div className='flex item-center justify-center md:justify-start gap-2 mb-2'>
+                        <Image
     
     src={foeterimage}
     objectFit="contain"

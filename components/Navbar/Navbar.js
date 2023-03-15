@@ -6,13 +6,16 @@ import { FiUser } from "react-icons/fi";
 import { RiShoppingCartLine } from "react-icons/ri";
 import Image from 'next/image';
 import foeterimage from '../../public/assets/Cards/Vector 1.png'
+import Link from 'next/link';
 const Navbar = () => {
   
   const [name, setProductName] = useState("");
   return (
     <div className='bg-[#03484D] h-[68px] px-[61px] flex items-center justify-between'>
             <div className='flex items-center gap-[41px]'>
-            <div className='flex item-center gap-2 mb-2'><Image
+                <Link href='/'> 
+            <div className='flex item-center gap-2 mb-2'>
+                <Image
     
     src={foeterimage}
     alt=""
@@ -20,6 +23,7 @@ const Navbar = () => {
     height={30}
   /><p className='text-[20px] mb-[21px] text-[#00CAD7]'> store</p>
                         </div> 
+                        </Link>
                 <div className='h-[39px] w-[534px] bg-white  rounded-md flex items-center'>
                     <div className='w-[157px] h-[39px] flex items-center justify-center 
                 border-r-[1px]'>

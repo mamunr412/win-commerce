@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='bg-[#03484D] h-[68px] px-[61px] flex items-center justify-between'>
             <div className='flex items-center gap-[41px]'>
-                <Link href='/'> 
+                <Link href={'/'}> 
             <div className='flex item-center gap-2 mb-2'>
                 <Image
     
